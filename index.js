@@ -1,4 +1,4 @@
-import { addItem, list } from './shoplist.js';
+import { addItem } from './shoplist.js';
 import { renderList } from './render.js';
 
 const addBtn = document.querySelector('.btn-add');
