@@ -43,11 +43,7 @@ addBtn.addEventListener('click', (e) => {
 
   const nameInput = document.querySelector('#input-name');
   const amountInput = document.querySelector('#input-amount');
-  const newItem = {
-    name: nameInput.value,
-    amount: amountInput.value,
-  };
-  list.push(newItem);
+
   renderList();
 
   nameInput.value = '';

@@ -6,3 +6,12 @@ export const list = [
   { name: 'Paštika', amount: '1 ks', bought: false },
   { name: 'Máslo', amount: '250 g', bought: true },
 ];
+
+const addItem = (name, amount) => {
+  const newItem = {
+    name,
+    amount,
+  };
+
+  list.push(newItem);
+};
