@@ -1,3 +1,5 @@
+import { list } from './shoplist.js';
+
 export const renderList = () => {
   const shoplistElement = document.querySelector('.shoplist');
   shoplistElement.innerHTML = '';
