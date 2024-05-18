@@ -7,7 +7,7 @@ export const list = [
   { name: 'Máslo', amount: '250 g', bought: true },
 ];
 
-const addItem = (name, amount) => {
+export const addItem = (name, amount) => {
   const newItem = {
     name,
     amount,

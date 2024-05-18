@@ -1,4 +1,4 @@
-import { list } from './shoplist.js';
+import { addItem, list } from './shoplist.js';
 
 const renderList = () => {
   const shoplistElement = document.querySelector('.shoplist');
@@ -43,6 +43,8 @@ addBtn.addEventListener('click', (e) => {
 
   const nameInput = document.querySelector('#input-name');
   const amountInput = document.querySelector('#input-amount');
+
+  addItem(nameInput.value, amountInput.value);
 
   renderList();
 
