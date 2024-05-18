@@ -1,4 +1,4 @@
-const renderList = () => {
+export const renderList = () => {
   const shoplistElement = document.querySelector('.shoplist');
   shoplistElement.innerHTML = '';
   list.forEach((item) => {
